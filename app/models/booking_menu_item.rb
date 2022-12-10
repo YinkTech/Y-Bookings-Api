@@ -1,0 +1,2 @@
+class BookingMenuItem < ApplicationRecord
+end

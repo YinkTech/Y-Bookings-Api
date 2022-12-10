@@ -1,24 +1,17 @@
-# README
+# Y-Bookings
+> This Repo is an Api built for Y-Bookings Capstone Project for my final Capstone
+## Built With 
+Rails Api 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Authors
 
-* Ruby version
+👤 **Author 1**
 
-* System dependencies
+- GitHub: [@YinkTech](https://github.com/yinktech)
+- Twitter: [@YinkTech](https://twitter.com/yink_tech)
+- LinkedIn: [Ayeni Olayinka](https://www.linkedin.com/in/yinktech/)
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
