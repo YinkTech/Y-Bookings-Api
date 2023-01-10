@@ -5,7 +5,7 @@ class BookingMenuItemsController < ApplicationController
   end 
 
   def show
-      @BookingMenuItem = BookingMenuItem.find(params[:id])
+      @bookingMenuItem = BookingMenuItem.find(params[:id])
       render json: @bookingMenuItem
   end 
 

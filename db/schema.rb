@@ -10,12 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_10_145652) do
+ActiveRecord::Schema[7.0].define(version: 2023_01_02_130643) do
   create_table "booking_menu_items", force: :cascade do |t|
     t.string "item_name"
     t.string "image_url"
     t.string "item_fee"
     t.string "item_description"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.string "username"
+    t.string "email"
+    t.string "number"
+    t.string "password_digest"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
